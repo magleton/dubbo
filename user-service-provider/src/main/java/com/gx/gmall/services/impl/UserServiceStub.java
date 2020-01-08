@@ -13,7 +13,6 @@ public class UserServiceStub implements UserService {
      * @param userService
      */
     public UserServiceStub(UserService userService) {
-        super();
         this.userService = userService;
     }
 

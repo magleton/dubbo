@@ -12,6 +12,8 @@ public class UserServiceImpl2 implements UserService {
         System.out.println("UserServiceImpl.....new...");
         UserAddress address1 = new UserAddress(1, "四川省成都市武侯区", "1", "晨晨", "028-12345678", "Y");
         UserAddress address2 = new UserAddress(2, "四川省成都市锦江区", "1", "尘尘", "028-12345678", "N");
-        return Arrays.asList(address1, address2);
+        UserAddress address3 = new UserAddress(3, "四川省成都市锦江区", "1", "尘尘", "028-12345678", "Y");
+        UserAddress address4 = new UserAddress(4, "四川省成都市锦江区", "1", "尘尘", "028-12345678", "N");
+        return Arrays.asList(address1, address2, address3, address4);
     }
 }
